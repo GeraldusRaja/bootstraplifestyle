@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #0d1b2a;
+}
+
+.navbar-brand{
+    font-family: Pacifico;
+    font-size: 30px;
+}
+
+.nav-item{
+    font-family: Arima;
+    font-size: 20px;
+}
+
+.sourcephoto {
+    display: block;
+    text-align: left; 
+    margin-left: 120px;
+    text-decoration: none;
+    color: rgb(35, 155, 224);
+  }
+
+  footer {
+    background-color: #0e141a;
+    color: white;
+    margin-top: 100px;
+    padding: 50px 0;
+  }
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-content h5 {
+    flex: 1;
+    text-align: center;
+  }
+  .footer-content a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  .footer-content a:hover {
+    color: #048aff;
+  }
+
+  .social-links a {
+    color: white;
+    margin: 0 10px;  
+    text-decoration: none;
+    font-size: 40px;  
+  }
+  .social-links a:hover {
+    color: #048aff;
+  } 
